@@ -59,14 +59,7 @@ considering constant phase difference between input signal and reference signal
 pfd const phase difference
 
 
-pfd_sim2
 
-Fig - Representation as a Phase error detector
-
-considering input and reference signal to have different time periods
-pfd
-
-In the above simulation result when f_clk_in leads f_vco , UP signal is triggered (yellow). While when the f_clk_in lags f_vco , DOWN signal is triggered. These two (up & down) signals are fed into the charge pump which is the next block of our implemented PLL.
 
 2. Charge Pump and Loop filter
 Charge Pump
